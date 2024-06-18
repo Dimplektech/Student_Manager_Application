@@ -10,12 +10,14 @@ The Student Manager Application is a command-line tool for managing student reco
 - Add a new student
 - Update student information (email, phone number, and grades)
 - Delete a student
+- Parse and validate dates
 
 ## Technologies Used
 
-- Python
+- Python 3.7+
 - SQLAlchemy (ORM for database interaction)
 - SQLite (default database, configurable)
+-  unittest
 
 ## Installation
 
