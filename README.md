@@ -17,7 +17,7 @@ The Student Manager Application is a command-line tool for managing student reco
 - Python 3.7+
 - SQLAlchemy (ORM for database interaction)
 - SQLite (default database, configurable)
--  unittest
+- Unittest
 
 ## Installation
 
@@ -95,9 +95,6 @@ The Student Manager Application is a command-line tool for managing student reco
 - `subject` (str): Subject name
 - `grades` (int): Grade score
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
