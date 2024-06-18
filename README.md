@@ -22,7 +22,7 @@ The Student Manager Application is a command-line tool for managing student reco
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/student-manager.git
+    git clone [https://github.com/your-username/student-manager.git](https://github.com/Dimplektech/Student_Manager_Application.git)
     cd student-manager
     ```
 
@@ -44,7 +44,7 @@ The Student Manager Application is a command-line tool for managing student reco
     - Create a `settings.py` file in the project root with the following content:
 
         ```python
-        DB_ADDRESS = 'sqlite:///students.db'  # Update with your database URL if using a different database
+        DB_ADDRESS = 'sqlite:///my_db.db'  # Update with your database URL if using a different database
         ```
 
 5. **Initialize the database**:
@@ -71,7 +71,7 @@ The Student Manager Application is a command-line tool for managing student reco
 - `student_manager.py`: Contains the `StudentManager` class for handling database operations
 - `models.py`: Defines the database models (`Student` and `Grade`)
 - `settings.py`: Configuration file for database settings
-- `utils.py`: Utility functions (e.g., for drawing lines in the menu)
+- `utils.py`: Utility functions (e.g., for drawing lines in the menu, for checking Date format)
 - `requirements.txt`: List of required Python packages
 
 ## Models
@@ -113,4 +113,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any inquiries, please contact [your-email@example.com].
+### Dimpal Kaware (https://github.com/Dimplektech)
